@@ -1,4 +1,4 @@
-# b2bhint-com
+# B2BHint
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-b2bhint-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://b2bhint.com/
+B2BHint provides company intelligence across 188 jurisdictions, aggregating official government register data to deliver comprehensive profiles including financials, officers, court cases, ownership, and more. The platform offers searchable company data, export capabilities, and an API for programmatic access, with free tier limits and paid plans for higher usage. Data is sourced directly from registers, ensuring accuracy and compliance.
+
+**Areas:** Company · Company Intelligence · Data · API · Financials · Jurisdictions
+
+## B2BHint on APIs.io
+
+Everything profiled for B2BHint is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/b2bhint-com/](https://apis.io/providers/b2bhint-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [B2BHint API](https://apis.io/apis/b2bhint-com/b2bhint-api/) — Programmatic API for company search, data retrieval, and intelligence endpoints.
+- [B2BHint API](https://apis.io/apis/b2bhint-com/b2bhint-com-api/) — B2BHint API as documented publicly: 16 operations. Contract generated from the documentation by API Evangelist (2026-11-02); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1CompanyChangesResponse](https://apis.io/schemas/b2bhint-com/b2bhint-com-get-api-v1-company-changes-response/)
+- [GetApiV1UserMeResponse](https://apis.io/schemas/b2bhint-com/b2bhint-com-get-api-v1-user-me-response/)
+- [GetApiV1WatchlistResponse](https://apis.io/schemas/b2bhint-com/b2bhint-com-get-api-v1-watchlist-response/)
+- [GetApiV2SearchCompanyResponse](https://apis.io/schemas/b2bhint-com/b2bhint-com-get-api-v2-search-company-response/)
+- [GetApiWidgetSearchResponse](https://apis.io/schemas/b2bhint-com/b2bhint-com-get-api-widget-search-response/)
+- [PostApiV1WatchlistResponse](https://apis.io/schemas/b2bhint-com/b2bhint-com-post-api-v1-watchlist-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [B2Bhint Com Context](https://apis.io/jsonld/b2bhint-com/b2bhint-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [B2BHint API Rules](https://apis.io/rules/b2bhint-com/b2bhint-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [B2Bhint Com Authentication](https://apis.io/security/b2bhint-com/b2bhint-com-authentication/)
+- [B2Bhint Com Domain Security](https://apis.io/security/b2bhint-com/b2bhint-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [B2Bhint Com Scopes](https://apis.io/scopes/b2bhint-com/b2bhint-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [B2Bhint Com Plans Pricing](https://apis.io/plans/b2bhint-com/b2bhint-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [B2Bhint Com Rate Limits](https://apis.io/rate-limits/b2bhint-com/b2bhint-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://b2bhint.com/)
+- [Documentation](https://b2bhint.com/en/about)
+- [API reference](https://b2bhint.com/en/api-reference)
+- [Pricing](https://b2bhint.com/en/pricing)
+- [Sign up](https://b2bhint.com/en/register)
+- [Support](https://b2bhint.com/en/contact-us)
+- [Terms of service](https://b2bhint.com/en/terms-of-use)
+- [Privacy policy](https://b2bhint.com/en/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 56.7** — strong · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 54.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.4 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 24.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/b2bhint-com/](https://apis.io/providers/b2bhint-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for B2BHint: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/b2bhint-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
